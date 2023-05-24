@@ -131,17 +131,6 @@ public class GestionSocioVideoClub {
         return -1;
     }
 
-//    public static int buscarTituloAlquilados(String titulo, Socio s) {
-//        int index = 0;
-//        for (int i = 0; i < s.getHistorial().size(); i++) {
-//            if (s.getHistorial().get(i).getTitulo().equalsIgnoreCase(titulo)) {
-//                index = i;
-//                return index;
-//            }
-//        }
-//        return -1;
-//    }
-
     public static int buscarSocio(String nif, ArrayList<Socio> socios) {
         int index = 0;
         for (int i = 0; i < socios.size(); i++) {
